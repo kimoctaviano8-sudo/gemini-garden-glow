@@ -4,7 +4,7 @@ const MaintenanceCard = () => {
   return (
     <div className="relative bg-card/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-border/50 animate-fade-in-up">
       <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-        <div className="bg-primary rounded-full p-3 shadow-lg animate-bounce-gentle">
+        <div className="bg-primary rounded-full p-3 shadow-lg">
           <Settings className="w-6 h-6 text-primary-foreground animate-spin-slow" />
         </div>
       </div>
