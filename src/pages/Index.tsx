@@ -2,8 +2,6 @@ import { Wheat, TreeDeciduous, Flower2 } from "lucide-react";
 import FloatingLeaf from "@/components/FloatingLeaf";
 import GrowingPlant from "@/components/GrowingPlant";
 import MaintenanceCard from "@/components/MaintenanceCard";
-import ProgressIndicator from "@/components/ProgressIndicator";
-import ContactSection from "@/components/ContactSection";
 
 const Index = () => {
   return (
@@ -56,12 +54,6 @@ const Index = () => {
         
         {/* Maintenance card */}
         <MaintenanceCard />
-        
-        {/* Progress indicator */}
-        <ProgressIndicator />
-        
-        {/* Contact section */}
-        <ContactSection />
         
         {/* Footer */}
         <footer className="text-center space-y-3 pt-4 animate-fade-in-up animation-delay-800">
